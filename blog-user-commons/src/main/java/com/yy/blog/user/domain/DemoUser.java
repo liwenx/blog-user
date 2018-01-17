@@ -5,15 +5,14 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
-/**
+/**引入lombok插件，通过注解实现getter setter toString equals hashCode
  * @author liwenxing
  * @date 2018/1/17 16:39
  */
 @Entity
-@Getter
-@Setter
-@ToString
+@Data
 @NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "demo_user")
 public class DemoUser {
     //主键
