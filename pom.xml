@@ -10,6 +10,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>blog-user-web</module>
+        <module>blog-user-service</module>
+        <module>blog-user-dao</module>
+        <module>blog-user-domain</module>
+        <module>blog-user-commons</module>
     </modules>
 
     <name>blog-user</name>

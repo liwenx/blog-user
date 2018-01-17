@@ -9,15 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>blog-user-web</artifactId>
+    <artifactId>blog-user-service</artifactId>
 
     <dependencies>
         <!-- 模块间依赖关系 -->
-        <dependency>
-            <groupId>com.yy</groupId>
-            <artifactId>blog-user-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>com.yy</groupId>
             <artifactId>blog-user-dao</artifactId>
@@ -28,7 +23,11 @@
             <artifactId>blog-user-domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.yy</groupId>
+            <artifactId>blog-user-commons</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
-
 
 </project>
