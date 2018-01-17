@@ -13,11 +13,8 @@ import org.springframework.stereotype.Service;
 @Service("demoService")
 public class DemoServiceImpl implements DemoService{
 
-    private final DemoDao demoDao;
     @Autowired
-    public DemoServiceImpl (DemoDao demoDao) {
-           this.demoDao = demoDao;
-    }
+    private DemoDao demoDao;
     @Override
     public DemoUser findByName(String name) {
         return demoDao.findByName(name);
