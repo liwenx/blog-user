@@ -9,11 +9,10 @@ import javax.persistence.*;
  * @author liwenxing
  * @date 2018/1/17 16:39
  */
-@Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "demo_user")
+@Entity(name = "demo_user")
 public class DemoUser {
     //主键
     @Id
