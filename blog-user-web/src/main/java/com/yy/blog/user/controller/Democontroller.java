@@ -1,5 +1,6 @@
 package com.yy.blog.user.controller;
 
+import com.yy.blog.user.domain.DemoUser;
 import com.yy.blog.user.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -46,7 +46,7 @@ spring:
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto:
     show-sql: true
 
 #文件服务器
