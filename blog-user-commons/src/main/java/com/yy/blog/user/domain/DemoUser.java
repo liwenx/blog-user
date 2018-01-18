@@ -6,6 +6,7 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
 /**引入lombok插件，通过注解实现getter setter toString equals hashCode
+ * equals hashCode重写
  * @author liwenxing
  * @date 2018/1/17 16:39
  */

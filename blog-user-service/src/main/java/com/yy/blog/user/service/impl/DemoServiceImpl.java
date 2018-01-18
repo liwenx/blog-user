@@ -11,10 +11,11 @@ import org.springframework.stereotype.Service;
  * @date 2018/1/17 16:16
  */
 @Service("demoService")
-public class DemoServiceImpl implements DemoService{
+public class DemoServiceImpl implements DemoService {
 
     @Autowired
     private DemoDao demoDao;
+
     @Override
     public DemoUser findByName(String name) {
         return demoDao.findByName(name);
